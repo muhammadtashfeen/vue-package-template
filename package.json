@@ -10,6 +10,7 @@
   "module": "./dist/vue-package-template.es.js",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/vue-package-template.es.js",
       "require": "./dist/vue-package-template.umd.js"
     }
